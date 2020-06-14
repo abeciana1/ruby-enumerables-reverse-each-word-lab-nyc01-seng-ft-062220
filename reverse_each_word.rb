@@ -1,7 +1,7 @@
 require 'pry'
 
 def reverse_each_word(sentence)
-  initial = [sentence.split(" ")]
+  initial = sentence.split(" ")
   results = []
   
   initial.each do |x|
