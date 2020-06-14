@@ -1,5 +1,5 @@
 def reverse_each_word(sentence)
-  initial = [sentence]
+  initial = [sentence].to_a
   results = []
   
   initial.each do |x|
