@@ -7,6 +7,6 @@ def reverse_each_word(sentence)
   new = initial.each do
     |x| p x
   end
-  new << results.reverse.join(" ")
-  return results
+  new << result.reverse.join(" ")
+  return result
 end
