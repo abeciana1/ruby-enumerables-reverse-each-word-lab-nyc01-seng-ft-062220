@@ -6,11 +6,10 @@ def reverse_each_word(sentence)
   index = 0
   
   
-  initial.each do |index, value|
-    if value == String
-      puts value
+  initial.each do |x|
+    if x == String
+      puts x
     end
-    index += 1
   end
 end
 
