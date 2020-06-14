@@ -5,7 +5,6 @@ def reverse_each_word(sentence)
   results = []
   index = 0
   
-  
   initial.each do |x|
     if x == String
       puts x
