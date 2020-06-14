@@ -5,7 +5,7 @@ def reverse_each_word(sentence)
   results = []
   
   initial.each do |x|
-    x.reverse
+    x.to_s.reverse << results
     binding.pry
   end
 end
