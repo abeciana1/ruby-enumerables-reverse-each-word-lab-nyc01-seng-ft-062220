@@ -1,1 +1,1 @@
-"the cow goes moo".reverse
+puts "the cow goes moo".reverse
