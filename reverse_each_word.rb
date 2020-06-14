@@ -8,7 +8,7 @@ def reverse_each_word(sentence)
   
   initial.each do |index, value|
     if value == String
-      index[value].reverse
+      puts value
     end
     index += 1
   end
