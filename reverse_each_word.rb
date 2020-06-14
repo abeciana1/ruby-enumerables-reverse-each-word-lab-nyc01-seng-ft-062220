@@ -5,4 +5,4 @@ end
 
 array = ["the cow goes moo"]
 
-puts array
+puts array.reverse
