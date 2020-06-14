@@ -1,15 +1,9 @@
 require 'pry'
 
 def reverse_each_word(sentence)
-  initial = sentence.split(" ")
-  results = []
-  index = 0
+  initial = sentence.reverse.split(" ")
   
-  initial.each do |x|
-    if x == String
-      puts x
-    end
-  end
+  initial.reverse
 end
 
 
