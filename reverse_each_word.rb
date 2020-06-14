@@ -20,8 +20,8 @@ def reverse_each_word(sentence)
   result = []
   
   new = initial.each do
-    |x| p x.reverse.join(" ")
+    |x| p x
   end
-  new << results
+  new << results.reverse.join(" ")
   return results
 end
