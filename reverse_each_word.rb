@@ -14,3 +14,14 @@ def reverse_each_word(sentence)
   end
   return results.reverse.join(" ")
 end
+
+def reverse_each_word(sentence)
+  initial = sentence.reverse.split(" ")
+  result = []
+  
+  new = initial.each do
+    |x| p x.reverse.join(" ")
+  end
+  new << results
+  return results
+end
