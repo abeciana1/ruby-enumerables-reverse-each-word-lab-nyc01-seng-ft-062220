@@ -4,3 +4,5 @@ end
 
 
 puts array = ["the cow goes moo".split(" ")]
+
+puts array
