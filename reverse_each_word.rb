@@ -4,9 +4,9 @@ def reverse_each_word(sentence)
   initial = sentence.split(" ")
   results = []
   
-  initial.each do |x|
-    x.to_s.reverse << results
-    binding.pry
+  initial.each do |index, value|
+    index[value].to_s.reverse
+    index += 1
   end
 end
 
