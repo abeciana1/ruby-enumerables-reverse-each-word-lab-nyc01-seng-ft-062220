@@ -3,7 +3,7 @@ require 'pry'
 def reverse_each_word(sentence)
   initial = sentence.reverse.split(" ")
   
-  initial.reverse.to_s
+  initial.reverse.to_s.join(" ")
 end
 
 
