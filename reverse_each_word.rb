@@ -3,9 +3,13 @@ require 'pry'
 def reverse_each_word(sentence)
   initial = sentence.split(" ")
   results = []
+  index = 0
+  
   
   initial.each do |index, value|
-    index[value].to_s.reverse
+    if value == String
+      index[value].to_s.reverse
+    end
     index += 1
   end
 end
